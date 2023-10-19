@@ -182,7 +182,7 @@ def run(
         LOGGER.info(f"Results saved to {colorstr('bold', save_dir)}{s}")
     if update:
         strip_optimizer(weights[0])  # update model (to fix SourceChangeWarning)
-    return f"{s}{'' if len(det) else '(no detections), '}{dt[1].dt * 1E3:.1f}ms" 
+     
     
 
 def parse_opt():
