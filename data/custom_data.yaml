@@ -1,0 +1,38 @@
+train: custom_dataset/train/  
+val: custom_dataset/val/ 
+
+
+# number of classes
+nc: 28
+
+
+# class names
+names:
+  0: 90174-06032-00
+  1: V178
+  2: V190
+  3: V196
+  4: V300
+  5: V516
+  6: V534
+  7: V537
+  8: V604
+  9: V623
+  10: V626
+  11: V627
+  12: vvv
+  13: V700
+  14: V701
+  15: V714
+  16: V717
+  17: V730
+  18: V731
+  19: V732
+  20: V735
+  21: V737
+  22: V739
+  23: V745
+  24: V781
+  25: V783
+  26: V785
+  27: V999
